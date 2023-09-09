@@ -50,6 +50,7 @@ button {
 }
 
 .header {
+  height: 100vh;
   margin: 10px;
   display: grid;
   grid-template-rows: 228px 192px 228px;
@@ -74,8 +75,7 @@ button {
   margin-inline-end: 9px;
 }
 
-@media not screen 
- {
+@media not screen { 
   .header__decorated-rec-element {
     display: none;
   }
@@ -165,7 +165,6 @@ button {
   font-weight: 700;
   line-height: 23.4px; /* 130% */  
   background-color: var(--accent-color);
-
 }
 
 .section {
@@ -209,6 +208,7 @@ button {
 }
 
 .footer {
+  height: 100vh;
   margin: 30px 10px 10px 10px;
   height: 647px;
 }
